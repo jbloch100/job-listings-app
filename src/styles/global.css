@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  text-align: center;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #f8f9fa;
 }
 
 h1 {
@@ -10,14 +10,31 @@ h1 {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 li {
-  padding: 10px;
-  background: white;
-  margin-bottom: 10px;
+  padding: 15px;
+  background: #fff;
+  margin: 10px 0;
   border-radius: 5px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
 }
