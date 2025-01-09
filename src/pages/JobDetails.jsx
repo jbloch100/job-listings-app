@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchJobs } from '../api/jobs';
+import '../styles/JobDetails.css';
 
 function JobDetails() {
   const { id } = useParams();
@@ -18,10 +19,10 @@ function JobDetails() {
   if (!job) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="job-details-container">
       <h1>{job.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: job.description }} />
-      <a href={job.url} target="_blank" rel="noopener noreferrer">Apply Now</a>
+      <a href={job.url} className="apply-button" target="_blank" rel="noopener noreferrer">Apply Now</a>
     </div>
   );
 }
