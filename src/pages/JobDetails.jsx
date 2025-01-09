@@ -20,7 +20,7 @@ function JobDetails() {
   return (
     <div>
       <h1>{job.title}</h1>
-      <p>{job.description}</p>
+      <div dangerouslySetInnerHTML={{ __html: job.description }} />
       <a href={job.url} target="_blank" rel="noopener noreferrer">Apply Now</a>
     </div>
   );
