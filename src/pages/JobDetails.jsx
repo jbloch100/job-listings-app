@@ -19,20 +19,19 @@ loadJob();
 
 if (!job) return <p>Loading...</p>;
 
-// Define the California privacy policy link
+// Define the correct California privacy policy link
 const californiaLink = "https://www.suvoda.com/california-applicant-privacy-notice-and-policy";
+
+// Fix broken links in job description
+const jobDescriptionSanitized = job.description.replace(
+/href="(?!http)([^"]+)"/g,
+`href="${californiaLink}" target="_blank" rel="noopener noreferrer"`
+);
 
 return (
 <div className="job-details-container">
 <h1>{job.title}</h1>
-<div
-dangerouslySetInnerHTML={{
-__html: job.description.replace(
-/href="(?!http)([^"]+)"/g,
-'href="https://$1" target="_blank" rel="noopener noreferrer"'
-)
-}}
-/>
+<div dangerouslySetInnerHTML={{ __html: jobDescriptionSanitized }} />
 <p>
 If you are based in California, read this important information
 <a href={californiaLink} target="_blank" rel="noopener noreferrer"> here</a>.
