@@ -45,27 +45,30 @@ git clone https://github.com/jbloch100/job-listings-app.git
 cd job-listings-app
 ```
 
-2. Install dependencies
+2. **Install dependencies**
 
+```sh
 npm install
+```
 
 
-3. Run the app
+3. **Run the app**
 
+```sh
 npm run dev
+```
 
+4. **Open in browser:** http://localhost:5173
 
-4. Open in browser: http://localhost:5173
+## 🎯 Future Improvements (Optional)
+• Add job search & filtering  
+• Improve mobile UI  
+• Use better animations  
 
-🎯 Future Improvements (Optional)
-• Add job search & filtering
-• Improve mobile UI
-• Use better animations
+## 🏆 Contributing
 
-🏆 Contributing
+Contributions are welcome! Feel free to **fork the repo & submit a PR**.
 
-Contributions are welcome! Feel free to fork the repo & submit a PR.
+## 📜 License
 
-📜 License
-
-This project is open-source under the MIT License.
+This project is **open-source** under the MIT License.
