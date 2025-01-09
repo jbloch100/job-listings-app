@@ -6,12 +6,12 @@ A **React.js** job listings app that fetches and displays remote job postings. U
 🔗 [Job Listings App](https://job-listings-app-one.vercel.app)
 
 ## 📌 Features
-✅ Fetches remote jobs from an API  
-✅ Displays job listings in a clean UI  
-✅ Click on a job to see details  
-✅ "Apply Now" button directs users to the application page  
-✅ Styled with CSS for a professional look  
-✅ Responsive design for mobile & desktop  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Fetches remote jobs from an API  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Displays job listings in a clean UI  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Click on a job to see details  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ "Apply Now" button directs users to the application page  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Styled with CSS for a professional look  
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Responsive design for mobile & desktop  
 
 ## 🛠️ Technologies Used
 - **React.js**
