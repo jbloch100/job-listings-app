@@ -61,9 +61,9 @@ npm run dev
 4. **Open in browser:** http://localhost:5173
 
 ## 🎯 Future Improvements (Optional)
-• Add job search & filtering  
-• Improve mobile UI  
-• Use better animations  
+• Add **job search & filtering**    
+• Improve **mobile UI**  
+• Use **better animations**  
 
 ## 🏆 Contributing
 
