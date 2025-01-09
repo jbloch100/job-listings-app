@@ -21,11 +21,15 @@ function JobDetails() {
   return (
     <div className="job-details-container">
       <h1>{job.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: job.description.replace( 
-              /href="(https?:\/\/[^"]+)"/g, // Regex to find all external links
-              'href="$1" target="_blank" rel="noopener noreferrer"'
-      ) }}
-    />
+      
+      <div
+        dangerouslySetInnerHTML={{
+        __html: job.description.replace(
+        /href="(?!http)([^"]+)"/g, // Only modifies links that don’t start with http
+        'href="https://$1" target="_blank" rel="noopener noreferrer"'
+        )
+        }}
+      />
       <a href={job.url} className="apply-button" target="_blank" rel="noopener noreferrer">Apply Now</a>
     </div>
   );
