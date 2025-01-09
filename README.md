@@ -22,6 +22,7 @@ A **React.js** job listings app that fetches and displays remote job postings. U
 
 ## 📂 Project Structure
 
+```plaintext
 📦 job-listings-app
 ┣ 📂 src
 ┃ ┣ 📂 api
@@ -36,7 +37,7 @@ A **React.js** job listings app that fetches and displays remote job postings. U
 ┣ 📜 package.json
 ┣ 📜 vite.config.js
 ┣ 📜 README.md
-
+```
 ## 📖 How to Run Locally
 1. **Clone the repository**
 ```sh
