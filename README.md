@@ -42,6 +42,7 @@ A **React.js** job listings app that fetches and displays remote job postings. U
 ```sh
 git clone https://github.com/jbloch100/job-listings-app.git
 cd job-listings-app
+```
 
 2. Install dependencies
 
