@@ -32,10 +32,6 @@ return (
 <div className="job-details-container">
 <h1>{job.title}</h1>
 <div dangerouslySetInnerHTML={{ __html: jobDescriptionSanitized }} />
-<p>
-If you are based in California, read this important information
-<a href={californiaLink} target="_blank" rel="noopener noreferrer"> here</a>.
-</p>
 <a href={job.url} className="apply-button" target="_blank" rel="noopener noreferrer">
 Apply Now
 </a>
